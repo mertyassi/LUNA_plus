@@ -1,5 +1,5 @@
 # LUNA+
-### LUNA: LUNA+: Succinct Post-Quantum ZK-SNARGs from Computational Privacy
+### LUNA+: Succinct Post-Quantum ZK-SNARGs from Computational Privacy
 
 #### Prerequisites
 
@@ -37,12 +37,12 @@ If you want to install LUNA+ using the script *luna_plus-install.sh*, first you 
 
 `sudo chmod +x ./luna_plus-install.sh`
 
-Then, simply run LUNA with:
+Then, simply run LUNA+ with:
 
 `./luna_plus-install.sh`
 
 in your home folder. This file needs a sudo password to run.
 
-If you want to manually install LUNA, after installing the dependencies, please download the files to your home folder. The implementation can be built and run from a Linux Terminal with the given chain of commands:
+If you want to manually install LUNA+, after installing the dependencies, please download the files to your home folder. The implementation can be built and run from a Linux Terminal with the given chain of commands:
 
 `cd ~/LUNA_plus/HGSW/build && cmake .. && cd ~/LUNA_plus/HGSW/build && make && cd ~/LUNA_plus/HGSW/build/hgsw/bin/ && ./HGSW_test`
